@@ -42,4 +42,4 @@
 
 
 let timeoutId;
-document
+document.querySelector
