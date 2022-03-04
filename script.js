@@ -1,2 +1,4 @@
 const buton = document.querySelector('#example-1 button');
-const span
+const span = document.querySelector('#example-1 span');
+
+button
