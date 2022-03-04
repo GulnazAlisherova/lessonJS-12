@@ -1,1 +1,1 @@
-const buton = document.querySelector
+const buton = document.querySelector('example-1')
