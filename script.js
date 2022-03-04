@@ -24,9 +24,21 @@
 //   document.body.classList.toggle('dark-theme');
 // });
 
-const timeoutExample = setTimeout(function(){
-  document.querySelector('span').textContent = "Hello";
-},
-document.querySelector('button').addEventListener('click', function(){
-  clearTimeout
-}));
+// const timeoutExample = setTimeout(function(){
+//   document.querySelector('span').textContent = "Hello";
+// },
+// document.querySelector('button').addEventListener('click', function(){
+//   clearTimeout(timeoutExample);
+// }));
+
+// document.querySelector('button')
+
+
+
+
+
+
+
+
+
+let timeoutId;
