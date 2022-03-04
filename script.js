@@ -25,5 +25,8 @@
 // });
 
 const timeoutExample = setTimeout(function(){
-  document.querySelector
-});
+  document.querySelector('span').textContent = "Hello";
+},
+document.querySelector('button').addEventListener('click', function(){
+  clearTimeout
+}));
