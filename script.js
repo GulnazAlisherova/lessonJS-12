@@ -16,4 +16,4 @@
 
 const darkTheme = document.querySelector('input[type=checkbox]');
 darkTheme.checked =+localStorage.getItem('dark-theme');
-document.body.classList
+document.body.classList.toggle
