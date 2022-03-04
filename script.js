@@ -1,1 +1,1 @@
-const buton = document
+const buton = document.querySelector
