@@ -15,6 +15,7 @@
 // });
 
 const darkTheme = document.querySelector('input[type=checkbox]');
+//remember
 darkTheme.checked = +localStorage.getItem('dark-theme');
 document.body.classList.toggle('dark-theme', darkTheme.checked);
 //react
