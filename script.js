@@ -45,4 +45,7 @@ let timeoutId;
 document.querySelector('button').addEventListener('click', function(){
 
 })
-const span = document
+const span = document.querySelector('span');
+setInterval(() => {
+  span
+}, (interval));
