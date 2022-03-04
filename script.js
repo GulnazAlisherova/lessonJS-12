@@ -42,4 +42,7 @@
 
 
 let timeoutId;
-document.querySelector
+document.querySelector('button').addEventListener('click', function(){
+
+})
+const span = document
