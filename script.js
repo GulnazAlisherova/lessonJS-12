@@ -8,4 +8,5 @@
 document.querySelector('input');
 
 
-const example3Input = document
+const example3Input = document.querySelector('#example-3 input');
+example3Input.value = localStorage
