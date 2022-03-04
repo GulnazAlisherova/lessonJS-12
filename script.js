@@ -8,4 +8,4 @@
 document.querySelector('input');
 
 
-const example3Input
+const example3Input = document
