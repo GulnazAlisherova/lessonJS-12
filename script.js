@@ -15,4 +15,4 @@
 // });
 
 const darkTheme = document.querySelector('input[type=checkbox]');
-darkTheme.checked =+localStorage
+darkTheme.checked =+localStorage.getItem
