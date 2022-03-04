@@ -14,12 +14,14 @@
 //   localStorage.setItem('example-3-input', example3Input.value)
 // });
 
-const darkTheme = document.querySelector('input[type=checkbox]');
-//remember
-darkTheme.checked = +localStorage.getItem('dark-theme');
-document.body.classList.toggle('dark-theme', darkTheme.checked);
-//react
-darkTheme.addEventListener('change', function(){
-  localStorage.setItem('dark-theme', +darkTheme.checked);
-  document.body.classList.toggle('dark-theme');
-});
+// const darkTheme = document.querySelector('input[type=checkbox]');
+// //remember
+// darkTheme.checked = +localStorage.getItem('dark-theme');
+// document.body.classList.toggle('dark-theme', darkTheme.checked);
+// //react
+// darkTheme.addEventListener('change', function(){
+//   localStorage.setItem('dark-theme', +darkTheme.checked);
+//   document.body.classList.toggle('dark-theme');
+// });
+
+const timeoutExample = setTimeout
