@@ -24,4 +24,6 @@
 //   document.body.classList.toggle('dark-theme');
 // });
 
-const timeoutExample = setTimeout
+const timeoutExample = setTimeout(function(){
+  document.querySelector
+});
