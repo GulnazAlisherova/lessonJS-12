@@ -14,4 +14,4 @@
 //   localStorage.setItem('example-3-input', example3Input.value)
 // });
 
-const darkTheme = 
+const darkTheme = document.querySelector
