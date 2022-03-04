@@ -9,4 +9,7 @@ document.querySelector('input');
 
 
 const example3Input = document.querySelector('#example-3 input');
-example3Input.value = localStorage
+example3Input.value = localStorage.getItem('example-3-input');
+example3Input.addEventListener('input', function(){
+  localStorage.setItem('example-3-input', example3Input.value)
+})
