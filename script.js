@@ -47,5 +47,5 @@ document.querySelector('button').addEventListener('click', function(){
 })
 const span = document.querySelector('span');
 setInterval(() => {
-  span.textContent++
-}, (interval));
+  span.textContent++;
+}, 1000);
