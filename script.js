@@ -1,7 +1,7 @@
 const button = document.querySelector('#example-1 button');
 const span = document.querySelector('#example-1 span');
 
-const
+span.textContent = localStorage.getItem('example-1-number') ?? 300;
 
 
 button.addEventListener('click', function(){
