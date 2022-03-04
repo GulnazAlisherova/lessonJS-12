@@ -18,4 +18,6 @@ const darkTheme = document.querySelector('input[type=checkbox]');
 darkTheme.checked =+localStorage.getItem('dark-theme');
 document.body.classList.toggle('dark-theme', darkTheme.checked);
 //react
-darkTheme.addEventListener('changee', function());
+darkTheme.addEventListener('changee', function(){
+  localStorage.setItem
+});
